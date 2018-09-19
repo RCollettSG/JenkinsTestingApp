@@ -1,4 +1,4 @@
-# Sparta Node Sample App
+# Reece Sparta Node Sample App
 
 ## Description
 
