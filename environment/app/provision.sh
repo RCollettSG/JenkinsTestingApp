@@ -21,10 +21,8 @@ sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 
 # Remove default nginx site
-sudo rm /etc/nginx/sites-enabled/default
 sudo rm /etc/nginx/sites-available/default
 
 # set up nginx reverse proxy
 sudo ln -s /home/ubuntu/environment/app/default /etc/nginx/sites-available/default
-sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo nginx -s reload
